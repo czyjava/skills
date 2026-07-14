@@ -1,0 +1,4 @@
+interface:
+  display_name: "完美像素服务器 SSH 与部署"
+  short_description: "登录 us-codex 并部署装修助手 da-v1"
+  default_prompt: "Use $wanmeixiangsu-server-ssh to inspect da-v1 and safely redeploy decoration-assistant."

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Interior Renovation Rendering"
+  short_description: "Generate reference-based room renovation prompts"
+  default_prompt: "Use $interior-renovation-rendering to turn this indoor photo into a finished renovation rendering prompt."
+
+policy:
+  allow_implicit_invocation: true

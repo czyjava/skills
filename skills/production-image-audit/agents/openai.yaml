@@ -1,0 +1,6 @@
+interface:
+  display_name: "Production Image Audit"
+  short_description: "Audit live image tasks with input/output sheets"
+  default_prompt: "Use $production-image-audit to compare recent production image-generation inputs and outputs, then summarize quality issues and prompt improvements."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,13 @@
+{
+  "name": "czy-skills-marketplace",
+  "owner": {
+    "name": "chenzhiyuan"
+  },
+  "plugins": [
+    {
+      "name": "czy-skills",
+      "source": "./",
+      "description": "Cross-agent skills repository (SSOT for Claude Code and Codex)."
+    }
+  ]
+}

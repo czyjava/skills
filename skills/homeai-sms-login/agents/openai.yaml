@@ -1,0 +1,4 @@
+interface:
+  display_name: "HomeAI 短信登录"
+  short_description: "装修 APP 短信验证码登录、后台记录轮询取码与安全回填流程"
+  default_prompt: "Use $homeai-sms-login to log into the HomeAI Android app with SMS verification via the admin send-record page."

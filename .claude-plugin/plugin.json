@@ -1,0 +1,8 @@
+{
+  "name": "czy-skills",
+  "description": "Chen Zhiyuan's cross-agent skills: WMXS delivery, lead orchestration, requirement analysis, Feishu/Lark tooling, Google Workspace, Taishan ops, Pixel Studio local dev, and HomeAI SMS login.",
+  "version": "2.0.0",
+  "author": {
+    "name": "chenzhiyuan"
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "WMXS Incident Loop"
+  short_description: "手动闭环处理 WMXS 生产 error、应用排查取证、Taishan SQL、Issue 和 MR。"
+  default_prompt: "巡检 <project> 生产 error 日志，并按 WMXS Incident Loop 手动闭环处理。"

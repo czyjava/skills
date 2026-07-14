@@ -1,0 +1,7 @@
+interface:
+  display_name: "Lead"
+  short_description: "问答式技术负责人总调度"
+  default_prompt: "Use $lead to 以技术负责人视角问答式调度一个跨工程需求。"
+
+policy:
+  allow_implicit_invocation: true

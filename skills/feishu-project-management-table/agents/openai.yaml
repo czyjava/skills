@@ -1,0 +1,7 @@
+interface:
+  display_name: "飞书项目管理表格"
+  short_description: "处理飞书项目管理多维表格的版本计划、任务整理和写入。"
+  default_prompt: "Use $feishu-project-management-table to process the Feishu project management table."
+
+policy:
+  allow_implicit_invocation: true
