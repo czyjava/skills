@@ -1,0 +1,46 @@
+package __BASE_PACKAGE__.__DOMAIN_PACKAGE__;
+
+import java.util.Objects;
+
+/**
+ * __COMMAND_BUSINESS_PURPOSE__ 的领域命令。
+ *
+ * <p>该对象只表达业务意图，不携带 HTTP、数据库或供应商协议对象。</p>
+ */
+public final class __COMMAND_CLASS_NAME__ {
+
+    /** 标识本次业务请求的幂等键，在 __IDEMPOTENCY_SCOPE__ 内唯一。 */
+    private final String requestId;
+
+    /** __SUBJECT_ID_BUSINESS_MEANING__，必须大于零。 */
+    private final long subjectId;
+
+    /**
+     * 创建领域命令。
+     *
+     * @param requestId 业务请求幂等键，不能为空
+     * @param subjectId __SUBJECT_ID_BUSINESS_MEANING__，必须大于零
+     */
+    public __COMMAND_CLASS_NAME__(String requestId, long subjectId) {
+        this.requestId = Objects.requireNonNull(requestId, "requestId 不能为空");
+        this.subjectId = subjectId;
+    }
+
+    /**
+     * 获取业务请求幂等键。
+     *
+     * @return 在 __IDEMPOTENCY_SCOPE__ 内唯一的幂等键
+     */
+    public String getRequestId() {
+        return requestId;
+    }
+
+    /**
+     * 获取 __SUBJECT_ID_BUSINESS_MEANING__。
+     *
+     * @return 大于零的业务主体 ID
+     */
+    public long getSubjectId() {
+        return subjectId;
+    }
+}

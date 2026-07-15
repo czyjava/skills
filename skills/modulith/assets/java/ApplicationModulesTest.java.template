@@ -1,0 +1,19 @@
+package __BASE_PACKAGE__.__TEST_PACKAGE__;
+
+import __BASE_PACKAGE__.__PROJECT_CLASS_NAME__Modulith;
+import cn.mucang.simple.modulith.ApplicationModules;
+import org.junit.jupiter.api.Test;
+
+/**
+ * 业务模块结构约束测试。
+ */
+class ApplicationModulesTest {
+
+    /**
+     * 校验领域依赖、公开面和内部包访问是否符合 Modulith 声明。
+     */
+    @Test
+    void verifyApplicationModuleBoundaries() {
+        ApplicationModules.of(__PROJECT_CLASS_NAME__Modulith.class).verify();
+    }
+}

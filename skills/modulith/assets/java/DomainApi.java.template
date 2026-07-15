@@ -1,0 +1,21 @@
+package __BASE_PACKAGE__.__DOMAIN_PACKAGE__;
+
+/**
+ * __DOMAIN_DISPLAY_NAME__ 领域公开能力。
+ *
+ * <p>调用方只能依赖此公开契约，不得访问本领域的应用服务、数据对象或基础设施实现。</p>
+ */
+public interface __DOMAIN_CLASS_NAME__Api {
+
+    /**
+     * __METHOD_BUSINESS_PURPOSE__。
+     *
+     * <p>幂等语义：__IDEMPOTENCY_SEMANTICS__。成功后会 __OBSERVABLE_SIDE_EFFECTS__。</p>
+     *
+     * @param command __COMMAND_BUSINESS_MEANING__，__COMMAND_CONSTRAINTS__
+     * @return __RESULT_BUSINESS_MEANING__，__RESULT_NULLABILITY__
+     * @throws __BUSINESS_EXCEPTION__ __BUSINESS_EXCEPTION_CONDITION__
+     */
+    __RESULT_CLASS_NAME__ __METHOD_NAME__(__COMMAND_CLASS_NAME__ command)
+            throws __BUSINESS_EXCEPTION__;
+}

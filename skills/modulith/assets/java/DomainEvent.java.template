@@ -1,0 +1,19 @@
+package __BASE_PACKAGE__.__DOMAIN_PACKAGE__;
+
+import java.time.Instant;
+
+/**
+ * __EVENT_BUSINESS_FACT__ 领域事件。
+ *
+ * @param eventId 全局唯一事件 ID，用于投递追踪和幂等消费
+ * @param subjectId 发生该业务事实的主体 ID
+ * @param occurredAt 业务事实发生时间，使用 UTC 时间线
+ * @param version 事件契约版本，从 1 开始递增
+ */
+public record __EVENT_CLASS_NAME__(
+        String eventId,
+        long subjectId,
+        Instant occurredAt,
+        int version
+) {
+}

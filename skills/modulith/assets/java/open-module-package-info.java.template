@@ -1,0 +1,9 @@
+/**
+ * __MODULE_DISPLAY_NAME__ 技术装配模块。
+ *
+ * <p>该模块允许框架完成启动和依赖装配，不得在此沉淀业务规则或跨领域编排。</p>
+ */
+@ApplicationModule(type = ApplicationModule.Type.OPEN)
+package __BASE_PACKAGE__.__MODULE_PACKAGE__;
+
+import cn.mucang.simple.modulith.ApplicationModule;

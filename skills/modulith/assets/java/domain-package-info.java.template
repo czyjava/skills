@@ -1,0 +1,12 @@
+/**
+ * __DOMAIN_DISPLAY_NAME__ 领域。
+ *
+ * <p>负责 __DOMAIN_GOAL__。领域公开能力仅位于根包或显式命名接口中，其他子包均为内部实现。</p>
+ */
+@ApplicationModule(
+        displayName = "__DOMAIN_DISPLAY_NAME__",
+        allowedDependencies = {__ALLOWED_DEPENDENCIES__}
+)
+package __BASE_PACKAGE__.__DOMAIN_PACKAGE__;
+
+import cn.mucang.simple.modulith.ApplicationModule;

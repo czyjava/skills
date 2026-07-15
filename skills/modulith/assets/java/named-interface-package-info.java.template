@@ -1,0 +1,9 @@
+/**
+ * __NAMED_INTERFACE_PURPOSE__ 的跨领域公开契约。
+ *
+ * <p>只开放 __PUBLIC_CAPABILITIES__；本领域其他实现细节不属于兼容承诺。</p>
+ */
+@NamedInterface("__NAMED_INTERFACE_NAME__")
+package __BASE_PACKAGE__.__DOMAIN_PACKAGE__.__INTERFACE_PACKAGE__;
+
+import cn.mucang.simple.modulith.NamedInterface;

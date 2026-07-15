@@ -1,0 +1,18 @@
+package __BASE_PACKAGE__;
+
+import cn.mucang.simple.modulith.Modulithic;
+
+/**
+ * __PROJECT_NAME__ 的 Modulith 结构入口。
+ *
+ * <p>该类型只用于发现业务模块并执行结构校验，不承载业务逻辑。</p>
+ */
+@Modulithic(systemName = "__PROJECT_NAME__")
+public final class __PROJECT_CLASS_NAME__Modulith {
+
+    /**
+     * 禁止创建结构入口实例。
+     */
+    private __PROJECT_CLASS_NAME__Modulith() {
+    }
+}
