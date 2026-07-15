@@ -10,8 +10,8 @@ description: 木仓服务端领域建设与 Modulith 规划。用于新建、演
 ## 职责边界
 
 - 本技能负责业务领域识别、边界裁决、依赖设计、Modulith 映射和演进规划。
-- 项目骨架、Maven module、SDK、组件接入和工程施工标准使用 `mc-backend-blueprint`。
-- Spec、Validation、Plan 等文档的命名、职责和治理使用 `document-blueprint`。
+- 项目骨架、Maven module、SDK、组件接入和工程施工标准不在本技能范围内，遵循目标项目当前 `AGENTS.md`、README 和已验证工程事实。
+- Spec、Validation、Plan 等文档的命名和治理遵循目标项目约定；没有专项约定时，使用本技能提供的蓝图模板和真相源拆分建议。
 - 部署拓扑、进程、消息队列、Worker、对象存储、供应商和模型服务等运行态设计单独形成运行架构，不混入业务领域 DAG。
 
 ## 默认裁决

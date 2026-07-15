@@ -26,7 +26,7 @@ cn.mucang.<project>.<domain>.infrastructure      外部系统和技术适配
 cn.mucang.<project>.<domain>.infrastructure.dao  本领域数据访问
 ```
 
-工程入口和公共模块按 `mc-backend-blueprint` 处理。不能因为项目预设了 `action / boot / common / foundation`，就把它们画成业务领域，或把实际的业务基础域塞进这些通用包。
+工程入口和公共模块遵循目标项目当前约定。不能因为项目预设了 `action / boot / common / foundation`，就把它们画成业务领域，或把实际的业务基础域塞进这些通用包。
 
 结构约束最少覆盖：
 
@@ -40,7 +40,7 @@ ApplicationModules.of(ProjectModulith.class).verify();
 - 内部包不能被其他模块访问。
 - OPEN 技术模块不能成为绕过业务边界的中转站。
 
-具体注解和工程版本以目标项目当前依赖、已验证源码行为及 `mc-backend-blueprint` 为准，不凭其他项目经验假设。
+具体注解和工程版本以目标项目当前依赖、项目约定和已验证源码行为为准，不凭其他项目经验假设。
 
 ## 当前与目标映射
 

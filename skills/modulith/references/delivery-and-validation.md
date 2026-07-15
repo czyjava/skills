@@ -4,7 +4,7 @@
 
 ## 输出层次
 
-使用 `assets/backend-domain-blueprint-template.md` 组织分析底稿，再按 `document-blueprint` 沉淀长期真相源：
+使用 `assets/backend-domain-blueprint-template.md` 组织分析底稿，再按目标项目现有文档约定沉淀长期真相源；没有专项约定时使用以下拆分：
 
 - 领域长期边界、公开能力、依赖和规约进入对应 `spec-*`。
 - 结构、能力归属、依赖方向和行为证据进入对应 `validation-*`。

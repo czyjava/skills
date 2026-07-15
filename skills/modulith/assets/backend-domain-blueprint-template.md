@@ -1,6 +1,6 @@
 # <服务名称> Modulith 领域蓝图
 
-> 用途：记录领域分析底稿和全局蓝图。长期领域事实按 `document-blueprint` 拆入 Spec、Validation、API、SQL 和 Ops。
+> 用途：记录领域分析底稿和全局蓝图。长期领域事实按目标项目约定拆入 Spec、Validation、API、SQL 和 Ops。
 
 ## 1. 任务范围
 
