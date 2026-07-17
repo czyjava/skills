@@ -1,6 +1,6 @@
 ---
 name: taishan-db-query
-description: 通过 WMXS 泰山 Agent API 执行受控只读数据库查询。适用于数据库索引确认、权限检查以及 SELECT、SHOW、EXPLAIN 取证；必须在 mucang-server 使用项目根目录 ./wmxs taishan，并遵守最长 2 小时临时权限限制。
+description: 通过 WMXS 泰山 Agent API 执行受控只读数据库查询。适用于数据库索引确认、权限检查以及 SELECT、SHOW、EXPLAIN 取证；必须在 mucang-server 使用项目根目录 ./wmxs taishan，并遵守最长 12 小时临时权限限制。
 ---
 
 # 泰山数据库查询
@@ -50,9 +50,9 @@ ssh mucang-server \
 
 ## 临时权限门禁
 
-- 新建临时权限最长只能为 2 小时。
+- 新建临时权限最长只能为 12 小时。
 - 只能审批当前任务由统一工作流创建的申请，不得审批无关申请。
-- 执行前必须确认当前 `./wmxs taishan sql-execute` 能证明新建权限时长不超过 2 小时。
+- 执行前必须确认当前 `./wmxs taishan sql-execute` 能证明新建权限时长不超过 12 小时。
 - 如果实现中硬编码了更长时长，或命令没有可靠的时长约束能力，立即停止，不得调用 `sql-execute`。
 - 已有有效权限可以复用，但仍需记录权限状态和到期时间。
 
